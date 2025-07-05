@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+  text-decoration: none;
+  list-style: none;
+
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  min-height: calc(100vh - 136.5px);
+}
+
+.mt{
+  margin-top: 1em;
+}
+
+.mtt{
+  margin-top: 2em;
+}
+
+
+.mttt{
+  margin-top: 3em;
+}
+
+.center{
+  text-align: center;}
+.border{
+  border: 1px solid red;
+}
+.mybutton{
+  border-radius: 5px !important;
+  border: 1px solid #888 !important;
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+
+}
+
+html
+{scroll-behavior: smooth;
+color:rgb(252, 82, 82);
+}
+
